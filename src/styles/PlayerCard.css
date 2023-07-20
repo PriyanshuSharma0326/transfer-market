@@ -1,3 +1,62 @@
 .player-card-container {
-    
+    line-height: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: var(--rounded);
+
+    position: relative;
+}
+
+.player-card-container > img {
+    width: 100%;
+    z-index: 0;
+    transition: transform 0.4s ease-in-out;
+}
+
+.player-card-container > img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.price-tag {
+    position: absolute;
+    bottom: 4rem;
+    left: 1rem;
+
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: var(--circular);
+    background-color: var(--around-white);
+    color: var(--mysterious-red);
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: 2px solid var(--mysterious-red);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-tag:hover {
+    cursor: pointer;
+}
+
+.player-info {
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.player-name {
+    /* text-align: center; */
+    background-color: var(--mysterious-red);
+    color: var(--around-white);
+    padding: 1.75rem 0;
+    padding-left: 1rem;
+    font-size: 1.25rem;
+}
+
+.club-name {
+    font-size: 0.9rem;
 }
