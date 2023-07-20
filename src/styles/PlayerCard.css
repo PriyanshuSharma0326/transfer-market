@@ -40,6 +40,8 @@
 
 .price-tag:hover {
     cursor: pointer;
+    background-color: var(--mysterious-red);
+    color: var(--around-white);
 }
 
 .player-info {
@@ -49,7 +51,6 @@
 }
 
 .player-name {
-    /* text-align: center; */
     background-color: var(--mysterious-red);
     color: var(--around-white);
     padding: 1.75rem 0;
