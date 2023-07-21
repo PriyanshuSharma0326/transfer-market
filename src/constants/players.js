@@ -83,34 +83,20 @@ const playerData = [
         playerName: 'Manuel Akanji',
         playerClub: 'Manchester City',
     },
-    // {
-    //     id: ,
-    //     imageURL: '',
-    //     playerPrice: ,
-    //     playerName: '',
-    //     playerClub: '',
-    // },
-    // {
-    //     id: ,
-    //     imageURL: '',
-    //     playerPrice: ,
-    //     playerName: '',
-    //     playerClub: '',
-    // },
-    // {
-    //     id: ,
-    //     imageURL: '',
-    //     playerPrice: ,
-    //     playerName: '',
-    //     playerClub: '',
-    // },
-    // {
-    //     id: ,
-    //     imageURL: '',
-    //     playerPrice: ,
-    //     playerName: '',
-    //     playerClub: '',
-    // },
+    {
+        id: 13,
+        imageURL: 'https://i.bundesliga.com/player/dfl-obj-002ge9-dfl-clu-000007-dfl-sea-0001k7.png',
+        playerPrice: 120,
+        playerName: 'Jude Bellingham',
+        playerClub: 'Real Madrid CF',
+    },
+    {
+        id: 14,
+        imageURL: 'https://assets.laliga.com/squad/2023/t178/p209712/2048x2048/p209712_t178_2023_0_003_000.png',
+        playerPrice: 75,
+        playerName: 'Frenkie de Jong',
+        playerClub: 'FC barcelona',
+    },
 ];
 
 export default playerData;
