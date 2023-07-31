@@ -10,7 +10,7 @@ function PlayerCard({ imageURL, playerPrice, playerName, playerClub }) {
             />
 
             <div className="price-tag">
-                <text>£<span className="player-price">{playerPrice}</span>M</text>
+                <p>£<span className="player-price">{playerPrice}</span>M</p>
             </div>
 
             <div className="player-info">

@@ -27,7 +27,8 @@
     background-color: var(--dark-blue);
 }
 
-.category:hover {
+.category:hover,
+.category.active {
     color: var(--dark-blue);
     background-color: var(--around-white);
 }
